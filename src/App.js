@@ -1,25 +1,45 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Header from './Header.js';
+import Imprimantes from './Imprimantes.js';
+import Accessoires from './Accessoires.js';
+import Consommables from './Consommables.js';
+import Conception from './Conception';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Header/>
+        <Router >
+        <div className="Menu">
+        <ul>
+            <li>
+            <Link to="/">Imprimantes 3D</Link>
+            </li>
+            |
+            <li>
+            
+            <Link to="/Consommables/">Consommables</Link>
+            </li>
+            |
+            <li>
+            <Link to="/Accessoires/">Accessoires</Link>
+            </li>
+            |
+            <li>
+            <Link to="/Conception/">Conception</Link>
+            </li>
+        </ul>
+        <div className="Content">
+        <Route path="/" exact component={Imprimantes} />
+      <Route path="/Consommables/" component={Consommables} />
+      <Route path="/Accessoires/" component={Accessoires} />
+      <Route path="/Conception/" component={Conception} />
+      </div>
+      </div>
+      </Router>
       </div>
     );
   }
