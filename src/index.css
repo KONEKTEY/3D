@@ -1,3 +1,9 @@
+@font-face {
+ font-family: "Bebas";
+ src: url("/fonts/bebas_neue/BebasNeue-Regular.otf") format("otf"),
+        url("//fonts/bebas_neue/BebasNeue-Regular.ttf") format("ttf");
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -105,9 +111,58 @@ display: flex;
 width: 100%;
 background-color: #0f8486;
 color: white;
-flex-direction: row;
+flex-direction: column;
 }
 
+.Conception h1 {
+  background-color: #1b1b1b;
+  color: #0f8486;
+  height: 190px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  font-family: "Bebas";
+  margin: 0;
+}
+
+.Conception h2 {
+  background-color: #2d2d2d;
+  color: #0f8486;
+  height: 135px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72px;
+  font-family: "Bebas";
+  margin: 0;
+}
+
+.modelisation{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  background-color: #1b1b1b;
+}
+
+.print{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  background-color: #1b1b1b;
+}
+
+.formation{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  background-color: #1b1b1b;
+}
 
 #Tel{
   width: 44px;
