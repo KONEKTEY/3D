@@ -15,19 +15,15 @@ class App extends Component {
         <Router >
         <div className="Menu">
         <ul>
-            <li>
+            <li className="BorderRight">
             <Link to="/">Imprimantes 3D</Link>
             </li>
-            |
-            <li>
-            
+            <li className="BorderRight">
             <Link to="/Consommables/">Consommables</Link>
             </li>
-            |
-            <li>
+            <li className="BorderRight">
             <Link to="/Accessoires/">Accessoires</Link>
             </li>
-            |
             <li>
             <Link to="/Conception/">Conception</Link>
             </li>
