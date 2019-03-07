@@ -8,7 +8,7 @@ class Imprimantes extends Component {
     return (
       <div className="Imprimantes">
         <p>Imprimantes</p>
-        <div>
+        <div className="Market">
         	<Filtre/>
         	<Gallerie/>
         </div>

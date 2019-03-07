@@ -23,6 +23,10 @@ p{
   background-color: #1b1b1b;
 }
 
+ul{
+  margin: 0;
+}
+
 .Header > p{
   padding-top: 17px;
   color: white;
@@ -63,12 +67,30 @@ h2{
   width: 100%;
 }
 
+.Market{
+  width: 100%;
+}
+
 .Produit{
   background-color: #2b2b2b;
+  width: 30%;
+  margin: 70px;
+}
+
+.Produit img{
+  width: 30%;
+  margin: 0 10%;
 }
 
 .Gallerie{
-  
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.Navig{
+
 }
 
 #HeaderList{
@@ -119,7 +141,7 @@ list-style: none;
 padding: 0;
 }
 
-.Menu ul li{
+.Navig{
   width: 25%;
 }
 
@@ -202,6 +224,42 @@ flex-direction: column;
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.Demo{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Demo ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.Details{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.gray{
+  background-color: #575757;
+}
+
+.blue{
+  background-color: #0f8486;
+}
+
+.blue:hover{
+  background-color: #0f7b7d;
+}
+
+.Action li{
+  width: 50%;
+  padding: 15px;
+  margin: 0;
 }
 
 @media screen and (max-width: 750px) {

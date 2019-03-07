@@ -7,6 +7,7 @@ class Gallerie extends Component {
     return (
       <div className="Gallerie">
      	<Produit/>
+     	<Produit/>
       </div>
     );
   }

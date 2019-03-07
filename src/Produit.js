@@ -10,9 +10,9 @@ class Produit extends Component {
      	<div className="Demo">
      		<img src={Miniature} />
      		<ul>
-     			<li>Nom</li>
-     			<li>Prix</li>
-     			<li>Prix TTC</li>
+     			<li>Zortrax M200</li>
+     			<li>2148€ TTC</li>
+     			<li>1790€ HT</li>
      		</ul>
      	</div>
      	<ul className="Details">
@@ -21,8 +21,8 @@ class Produit extends Component {
      		<li>oiuyutyrdte</li>
      	</ul>
      	<ul className="Action">
-     		<li>PLUS</li>
-     		<li>ACHETER</li>
+     		<li className="gray">PLUS</li>
+     		<li className="blue">ACHETER</li>
      	</ul>
       </div>
     );

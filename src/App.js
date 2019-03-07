@@ -14,7 +14,7 @@ class App extends Component {
         <Header/>
         <Router >
         <div className="Menu">
-        <ul>
+        <ul className="Navig">
             <li className="BorderRight">
             <Link to="/">Imprimantes 3D</Link>
             </li>
