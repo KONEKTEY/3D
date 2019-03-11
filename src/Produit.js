@@ -22,7 +22,7 @@ class Produit extends Component {
      	</ul>
      	<ul className="Action">
      		<li className="gray">PLUS</li>
-     		<li className="blue">ACHETER</li>
+     		<li className="blue" >ACHETER</li>
      	</ul>
       </div>
     );
