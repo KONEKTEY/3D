@@ -14,15 +14,12 @@ class Header extends Component {
       <div className="Header">
         <p>Vente d’imprimantes 3D, de consommables et d’accessoires  |  Réalisation, conception et impression d’objets 3D pour particuliers</p>
         <div id='HeaderList'>
-        	<img src={Logo}/>
-        	<div className='Vertical'>
+        	
+        	
         		<img id='Mail' src={Mail}/>
         		<img id='Tel' src={Tel}/>
-        	</div>
-        	<form className="search">
-        		<img src={Loupe}/>
-        		<input type="text" className="Search" placeholder="Recherche ..." name="search"/>
-        	</form>
+        
+        	<img src={Logo}/>
         	<div className='Vertical'>
         		<img id='devis' src={Devis}/>
         		<p className="DemandeDevis">Demander un<br/> devis</p>

@@ -15,17 +15,17 @@ class App extends Component {
         <Router >
         <div className="Menu">
         <ul className="Navig">
-            <li className="BorderRight">
-            <Link to="/">Imprimantes 3D</Link>
+            <li className="BorderRight" >
+            <Link to="/">IMPRIMANTES 3D</Link>
             </li>
             <li className="BorderRight">
-            <Link to="/Consommables/">Consommables</Link>
+            <Link to="/Consommables/">CONSOMMABLES</Link>
             </li>
             <li className="BorderRight">
-            <Link to="/Accessoires/">Accessoires</Link>
+            <Link to="/Accessoires/">ACCESSOIRES</Link>
             </li>
             <li>
-            <Link to="/Conception/">Conception</Link>
+            <Link to="/Conception/">CONCEPTION</Link>
             </li>
         </ul>
         <div className="Content">

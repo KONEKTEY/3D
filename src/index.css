@@ -15,9 +15,16 @@ body {
   background-color: #1b1b1b;
 }
 
-p{
-  margin: 0px;
+div{
+  margin: 0;
 }
+
+
+p{
+  margin: 0;
+}
+
+
 
 .Content{
   background-color: #1b1b1b;
@@ -28,11 +35,13 @@ ul{
 }
 
 .Header > p{
-  padding-top: 17px;
   color: white;
-  font-size: 24px;
+  border-bottom: 1px #404040 solid;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    height: 30px;
 }
-
 
 
 .Header input{
@@ -53,7 +62,7 @@ ul{
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #404040;
+  background-color: #1a1a1a;
 
 }
 
@@ -69,6 +78,7 @@ h2{
 
 .Market{
   width: 100%;
+  background-color: #1a1a1a;
 }
 
 .Produit{
@@ -89,18 +99,20 @@ h2{
   align-content: center;
 }
 
-.Navig{
-
-}
-
 #HeaderList{
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 69%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+#HeaderList > img{
+ border-right: 1px #404040 solid;
+ 
 }
 
 form{
@@ -142,11 +154,38 @@ padding: 0;
 }
 
 .Navig{
-  width: 25%;
+  width: 100%;
+  height: 55px;  
 }
 
+.Navig li {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.Navig li > a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  border-right: 3px white solid;
+}
+
+.Navig li > a:hover{
+  background-color: #0f7b7d;
+}
 .BorderRight{
-  border-right: white 1px solid;
+  
 }
 
 .Menu{
