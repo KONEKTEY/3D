@@ -66,19 +66,23 @@ ul{
 
 }
 
-.Imprimantes p{
+.Imprimantes > p{
   margin-top: 48px;
 }
 
 h2{
   color: white;
-  background-color: black;
+  background-color: #2b2b2b;
   width: 100%;
+  padding: 10px 0;
 }
 
 .Market{
   width: 100%;
   background-color: #1a1a1a;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .Produit{
@@ -93,7 +97,7 @@ h2{
 }
 
 .Gallerie{
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-content: center;
@@ -304,6 +308,31 @@ code {
   padding: 15px;
   margin: 0;
 }
+
+.Filtre{
+  width: 20%;
+}
+
+.Filtre form{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Filtre form ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Filtre form ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 @media screen and (max-width: 750px) {
   body{
