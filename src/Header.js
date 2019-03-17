@@ -14,16 +14,16 @@ class Header extends Component {
       <div className="Header">
         <p>Vente d’imprimantes 3D, de consommables et d’accessoires  |  Réalisation, conception et impression d’objets 3D pour particuliers</p>
         <div id='HeaderList'>
-        	<img id='Mail' src={Mail}/>
-        	<img id='Tel' src={Tel}/>
-        	<img src={Logo}/>
+        	<div><img className='Mail' onMouseOver={()=>{document.querySelector('.Mail').classList.add('animated', 'pulse')}} onMouseLeave={()=>{document.querySelector('.Mail').classList.remove('animated', 'pulse')}} src={Mail}/></div>
+        	<div><img className='Tel' onMouseOver={()=>{document.querySelector('.Tel').classList.add('animated', 'pulse')}} onMouseLeave={()=>{document.querySelector('.Tel').classList.remove('animated', 'pulse')}} src={Tel}/></div>
+        	<div><img src={Logo}/></div>
         	<div className='Vertical'>
         		<img id='devis' src={Devis}/>
-        		<p className="DemandeDevis">Demander un<br/> devis</p>
+        		{/*<p className="DemandeDevis">Demander un devis</p>*/}
         	</div>
         	<div className='Vertical'>
         		<img id='panier' src={Panier}/>
-        		<p className="DemandeDevis">Mon panier :</p>
+        		{/*<<p className="DemandeDevis">Mon panier :</p>*/}
         	</div>
         </div>
       </div>

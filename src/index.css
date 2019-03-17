@@ -38,7 +38,7 @@ ul{
   color: white;
   border-bottom: 1px #404040 solid;
     width: 100%;
-      padding:  10px 0px;
+    padding:  10px 0px;
     font-size: 20px;
     height: 30px;
 }
@@ -111,6 +111,13 @@ h2{
   justify-content: space-between;
 }
 
+#HeaderList > *{
+ width: 20%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
 
 
 form{
@@ -125,10 +132,11 @@ form img{
 .Vertical{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
     height: 132px;
   }
+
 
 
 .DemandeDevis{

@@ -2,8 +2,9 @@
   "name": "ecom3d",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://gauthierginier.github.io/3D/",
+  "homepage": "https://gauthierginier.github.io/3D/",
   "dependencies": {
+    "animate.css": "^3.7.0",
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -18,8 +19,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
-    
-
   },
   "eslintConfig": {
     "extends": "react-app"

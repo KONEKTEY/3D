@@ -5,6 +5,7 @@ import Imprimantes from './Imprimantes.js';
 import Accessoires from './Accessoires.js';
 import Consommables from './Consommables.js';
 import Conception from './Conception';
+import 'animate.css';
 import './App.css';
 
 class App extends Component {
@@ -16,16 +17,16 @@ class App extends Component {
         <div className="Menu">
         <ul className="Navig">
             <li className="BorderRight" >
-            <Link to="/">IMPRIMANTES 3D</Link>
+            <Link to="/">Regarde</Link>
             </li>
             <li className="BorderRight">
-            <Link to="/Consommables/">CONSOMMABLES</Link>
+            <Link to="/Consommables/">Aurélie</Link>
             </li>
             <li className="BorderRight">
-            <Link to="/Accessoires/">ACCESSOIRES</Link>
+            <Link to="/Accessoires/">on</Link>
             </li>
             <li>
-            <Link to="/Conception/">CONCEPTION</Link>
+            <Link to="/Conception/">BOSSE !</Link>
             </li>
         </ul>
         <div className="Content">
