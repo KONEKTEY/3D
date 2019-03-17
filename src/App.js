@@ -17,16 +17,16 @@ class App extends Component {
         <div className="Menu">
         <ul className="Navig">
             <li className="BorderRight" >
-            <Link to="/">Regarde</Link>
+            <Link to="/">IMPRIMANTES 3D</Link>
             </li>
             <li className="BorderRight">
-            <Link to="/Consommables/">Aurélie</Link>
+            <Link to="/Consommables/">CONSOMMABLES</Link>
             </li>
             <li className="BorderRight">
-            <Link to="/Accessoires/">on</Link>
+            <Link to="/Accessoires/">ACCESSOIRES</Link>
             </li>
             <li>
-            <Link to="/Conception/">BOSSE !</Link>
+            <Link to="/Conception/">CONCEPTION</Link>
             </li>
         </ul>
         <div className="Content">
