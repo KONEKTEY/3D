@@ -14,11 +14,8 @@ class Header extends Component {
       <div className="Header">
         <p>Vente d’imprimantes 3D, de consommables et d’accessoires  |  Réalisation, conception et impression d’objets 3D pour particuliers</p>
         <div id='HeaderList'>
-        	
-        	
-        		<img id='Mail' src={Mail}/>
-        		<img id='Tel' src={Tel}/>
-        
+        	<img id='Mail' src={Mail}/>
+        	<img id='Tel' src={Tel}/>
         	<img src={Logo}/>
         	<div className='Vertical'>
         		<img id='devis' src={Devis}/>
